@@ -1,0 +1,445 @@
+/** IMPORTED FONTS FROM GOOGLE FONTS **/
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+/** SMOOTH SCROLL WHEN CLICK NAV **/
+html {
+  scroll-behavior: smooth;
+}
+
+/** BODY + CONTAINER **/
+body {
+    background-color: #F2DAD6;
+    max-width:100%;
+    margin: 0;
+}
+  
+#container{
+    display:block;
+    max-width: 100%;
+    background-color: #F2DAD6;
+}
+    
+
+/** HEADERS **/
+.header{
+    background-color: #F2DAD6;
+    margin: 0;
+    color: black;
+    height: 95px;
+    position: fixed;
+    border-bottom: 6px solid #4B4E61;
+    width: 100%;
+}
+
+#header1{
+    text-align:center;
+    font-family: 'Cabin Sketch', cursive;
+    color: black;
+    background-color: #F2DAD6;
+    font-size: 60;
+    text-decoration: underline bold;
+    grid-column: 1/4;
+}
+
+
+h1 {
+    text-align:center;
+    font-family: 'Cabin Sketch', cursive;
+    color:black;
+    background-color: #F2DAD6;
+    font-size: 60;
+    text-decoration: underline bold;
+}
+
+/**NAVIGATION BAR **/
+.nav{
+    display: grid;
+    grid-template-columns: 300px auto;
+    height: 106px;
+    margin-left: 10;
+    margin-right: 10;
+    overflow: hidden;
+    background-color:  #E1765B;
+    max-width: 100%;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.nav a:hover{
+    text-decoration:underline;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 200px;
+    font-size: 60px;
+}
+
+
+.links {
+    font-size: 30px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #4B4E61;
+}
+
+
+
+.links a {
+    color: black; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    text-decoration: none;
+}
+
+/**HOME**/
+.banner {
+    padding: 0;
+    width: auto;
+}
+
+.banner img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.tyres {
+    height: auto;
+    width: auto;
+}
+.orangecar {
+    height: auto;
+    width: auto;
+}
+
+/****/
+#diy{
+    max-width:100%;
+    /**display: grid; **/
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 650px;
+    background-image: url("img/pattern.png");
+    background-color: #A3CDD1;
+    opacity: 0.5px;
+    background-size: 1400px;
+    background-repeat: repeat-z;
+}
+
+/**elipse **/
+#paragraph{
+    display:grid;
+    margin: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    grid-column:1/2;
+    background-color:white;
+    opacity: 0.7;
+    max-width: 100%;
+    border-radius: 50%;
+}
+    
+#paragraph p {
+    margin: 100px;
+    font-size: 19px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#diybutton{
+    display:grid;
+    background-color: #E37559;
+    grid-column:2/2;
+    height: auto;
+    margin: 300px; 
+    border-radius: 100px; 
+    font-family: 'Cabin Sketch', cursive;
+}
+
+/** gallery **/
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 650px;
+    background-color:#E37559;
+    background-image: url(img/camera.png);
+    background-size: 1400px;
+    background-repeat: repeat-z;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+
+
+#gallerybutton{
+    display:grid;
+    background-color: white;
+    grid-column:2/2;
+    height: auto;
+    margin: 300px; 
+    border-radius: 100px; 
+    font-family: 'Cabin Sketch', cursive;
+}
+
+
+#paragraph2 p {
+    display:grid;
+    max-width: 100%;
+    margin: 20px;
+    grid-column:1/2;
+    height: auto;
+    font-family: 'Cabin Sketch', cursive;
+}
+    
+/** blue car **/
+#car img {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1330px;
+    width: 550px;
+}
+
+/** contact **/
+#contact{
+    max-width:100%;
+    /**display: grid; **/
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 650px;
+    background-image: url("img/pattern.png");
+    background-color: #F0C63F;
+    opacity: 0.5px;
+    background-size: 1400px;
+    background-repeat: repeat-z;
+}
+
+#paragraph3 {
+    display:grid;
+    margin: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    grid-column:1/2;
+    background-color: white;
+    opacity: 0.5;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#paragraph3 p {
+    margin: 100px;
+    font-size: 19px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#paragraph img {
+    width: 20px;
+}
+
+/** car image above. orange car**/
+#contact img {
+    position: absolute;
+    margin-top: 100px;
+    width: 1000px
+}
+
+#form{
+    display:block;
+    max-width:100%;
+    /** height: 10px; **/
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+/** template online **/
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    font-family: 'Cabin Sketch', cursive;
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Cabin Sketch', cursive;
+    align-content: center; 
+
+}
+
+/* When moving the mouse over the submit button, will change colour to pink */
+input[type=submit]:hover {
+  background-color: #F4AFA6;
+}
+
+.submitcenter{
+    text-align: center;
+    height: 60px;
+}
+
+/**FOOTER AT BOTTOM **/
+
+footer{
+    text-align: center;
+    color: black;
+    
+}
+
+/**PHOTOGRAPHY.HTML AND PAINTING.HTML**/
+
+#gallery2{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+#body2{
+    background-color :#E37559;
+    background-image: url("img/camera.png");  
+    background-repeat: repeat-z;
+    background-size: 1400px;
+}
+
+
+.mySlides {
+	display: none;
+	height: 100%;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.mySlides img {
+	width: 100%;
+	height: 100%;
+}
+.slideshow-container {
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+	width: 480px;
+	height: 600px;
+}
+.slide-prev, .slide-next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+.slide-next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.slide-prev:hover, .slide-next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/************CSS Animation***********/
+
+.animated { 
+   -webkit-animation-name: fadeIn; 
+           animation-name: fadeIn; 
+   -webkit-animation-duration: 1s; 
+           animation-duration: 1s; 
+} 
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+.fadeIn { 
+    -webkit-animation-name: fadeIn; 
+    animation-name: fadeIn; 
+}
+
+#footerhash {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10x;
+
+}
+
+#footerhash img {
+    height: 85px;
+    margin: 10px;
+    max-width: 100%
+}
+
+
+footer{
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 18px;
+    background-color:#E37559;
+    height: 400px;
+    max-width: 100%
+}
+
+#footerhash hr {
+    color: black;
+}
+
+#diypage {
+    background-color:#E37559; 
+}
+
+#social1 img {
+    position: absolute;
+    width: 140px;
+    margin-left: 230px;
+    margin-top: 1030px;
+}
+
+#social2 img {
+    position: absolute;
+    width: 140px;
+    margin-left: 390px;
+    margin-top: 1000px;
+}
+
+#social3 img {
+    position: absolute;
+    width: 160px;
+    margin-left: 540px;
+    margin-top: 1010px;
+
+}
+
+#tree img {
+    position: absolute;
+    width: 1000px;
+    opacity: 1;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
